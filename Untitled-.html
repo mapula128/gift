@@ -1,0 +1,156 @@
+//Text input
+<form>
+    first name:<br>
+    <input type="text" name="firstname"><br> Last name:<br>
+    <input type="text" name="lastname">
+</form>form> //radion button
+<form>
+    <input type="radio" name="gender" value="male" checked>male<br>
+    <input type="radio" name="gender" value="female">female><br>
+    <input type="radio" name="gender" value="other">other
+</form>
+
+//submit
+<form action="/action_page.php">
+    first name:<br>
+    <input type="text" name="firstname" value="mickey"><br> last name:<br>
+    <input type="text" name="last name" value="mouse"><br><br>
+    <input type="submit" value="submit">
+
+</form>
+//The action attribute //The Method Attribute
+
+<form action="/action_page.php" method="get">
+    <form action="/action_page.php" method="post">
+        //get method
+
+        <html>
+
+        <body>
+            <FORM ACTION="get.html" METHOD=GET>
+                <P>Please Fill the Registration Form</p><br> Enter Your Name<input type="text" name="username"><br> Enter Your Credit Card Number<input type="text" name="credit Number"><br>
+                <input type="submit" value="send">
+            </FORM>
+        </body>
+
+        </html>
+        //post method
+
+        <html>
+
+        <body>
+            <FORM ACTION="get.html" METHOD="POST">
+                <P>Please Fill the Registration Form</p><br> Enter Your Name<input type="text" name="username"><br> Enter Your Credit Card Number<input type="text" name="credit Number"><br>
+                <input type="submit" value="send">
+            </FORM>
+        </body>
+
+
+
+        //action atributes
+
+        <form action="/action_page.php">
+            First name:<br>
+            <input type="text" value="Mickey"><br> Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        //Grouping Form data with fieldset
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personal information :</legend>
+                first name:<br>
+                <input type="text" name="lastname" value="mouse"><br><br>
+                <input type="submit" value="submit">
+
+            </fieldset>
+
+
+        </form>
+        <select name="cars">
+    <option value="volvo">volvo</option>
+    <option value="saab" >saab</option>
+    <option value="fiat">fiat</option>
+    <option value="audi">audi</option>
+</select>
+
+
+        <option value="fiat" selected>Fiat</option>
+
+        <select name="cars" size="3">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+       </select>
+
+        <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+   </textarea>
+
+        <form action="/action_page.php">
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+     </datalist>
+
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+
+            <p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+            <p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+
+
+
+
+
+        </form>
+
+
+
+        First name:<input type="text" name="fname" autofocus>
+
+        <form action="/action_page.php" id="form1">
+            First name: <input type="text" name="fname"><br>
+            <input type="submit" value="Submit">
+        </form>
+        Last name: <input type="text" name="lname" form="form1">
+
+
+
+
+
+        <form action="/action_page.php">
+            First name: <input type="text" name="fname"><br> Last name: <input type="text" name="lname"><br>
+            <input type="submit" value="Submit"><br>
+            <input type="submit" formaction="/action_page2.php" value="Submit as admin">
+        </form>
+
+        <form action="/action_page_binary.asp" method="post">
+            First name: <input type="text" name="fname"><br>
+            <input type="submit" value="Submit">
+            <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+        </form>
+
+
+        <form action="/action_page.php" method="get">
+            First name: <input type="text" name="fname"><br> Last name: <input type="text" name="lname"><br>
+            <input type="submit" value="Submit">
+            <input type="submit" formmethod="post" value="Submit using POST">
+        </form>
+
+
+        Username: <input type="text" name="usrname" required>
+
+
+        </html>
